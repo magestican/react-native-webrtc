@@ -2,4 +2,8 @@ rootProject.name = 'PepperoniAppTemplate'
 
 include ':app'
 include ':react-native-vector-icons'
+include ':WebRTCModule', ':app'
+
 project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+project(':WebRTCModule').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webrtc/android')
