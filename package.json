@@ -37,7 +37,7 @@
     "lodash": "^4.11.0",
     "moment": "^2.12.0",
     "react": "^15.2.0",
-    "react-dom": "~15.3.2",
+    "react-dom": "15.2.0",
     "react-native": "^0.29.0",
     "react-native-vector-icons": "^3.0.0",
     "react-native-webrtc": "^0.54.4",
